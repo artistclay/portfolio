@@ -6,6 +6,8 @@ Frontend Developer
 
 Stack: HTML, CSS, JavaScript, React (in progress), Git
 
+Worked with Figma, Tilda, css animation
+
 
 
 My portfolio:
