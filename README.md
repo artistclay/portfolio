@@ -1,6 +1,6 @@
 # portfolio
 
-Hello I'm Irina Levchenko (@rtistclay)
+Hello I'm Irina Levchenko (@rtistclay) /n
 Frontend Developer
 Stack: HTML, CSS, JavaScript, React (in progress), Git
 
@@ -15,5 +15,6 @@ My portfolio:
 ![image](https://user-images.githubusercontent.com/129985318/230778331-bf0c0a52-b9e9-4e91-9d86-1336c76e3f13.png) ![image](https://user-images.githubusercontent.com/129985318/230778341-bbfeffdf-1bc3-447a-a42b-d2e7785f7bfd.png) ![image](https://user-images.githubusercontent.com/129985318/230778356-58d08ff9-d072-444b-aec7-89795388b3a1.png)
 
 - SideBar
+
 ![image](https://user-images.githubusercontent.com/129985318/230778425-aef500bc-f98a-46bc-a0ae-4e476f60e5bc.png) ![image](https://user-images.githubusercontent.com/129985318/230778683-6adc471f-b695-474d-9314-d2c77c42f914.png)
 
