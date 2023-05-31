@@ -1,0 +1,163 @@
+.bio__photo {
+    width: 100%;
+    /* чтобы не искажалась картинка */
+    object-fit: cover;
+    margin: 10px 0px 10px;
+    height: 437px;
+    width: 320px;
+    left: 15px;
+    border-radius: 1ch;
+}
+
+.bio__title {
+    margin-bottom: 20px;
+}
+
+.bio__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.bio__discription {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.bio__order-bt {
+    background-color: rgba(162, 149, 214, 0.95);
+    width: 190px;
+    height: 52px;
+    left: 30px;
+    top: 695px;
+    border-radius: 22px;
+    margin: 10px 0px 10px;
+    color: aliceblue;
+}
+
+@media (min-width: 480px){
+    .bio__container {
+        display: flex;
+    }
+
+    .bio__photo {
+        width: 50%;
+        margin-right: 15px;
+        margin-bottom: 0;
+        border-radius: 1ch;
+    }
+
+    .bio__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: self-start;
+    }
+
+    .bio__title{
+        font-size: 40px;
+    }
+
+    .bio__subtitle {
+        font-size: 18px;
+    }
+
+    .bio__discription {
+        font-size: 16px;
+    }
+
+    .bio__order-bt {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .bio__photo {
+        width: 370px;
+    }
+    .bio__group-title{
+        margin-bottom: 40px;
+        margin-right: 30px;
+    }
+
+    .bio__title{
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+
+    .bio__discription {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+    .bio__order-btn{
+        padding: 24px 82px;
+    }
+}
+
+@media (min-width: 992px) {
+    .present {
+        position: relative;
+    }
+
+    /* псевдо элемент */
+    .bio:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 33%;
+        height: 525px;
+        background-color: rgb(181, 162, 229);
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bio__photo {
+        width: 445px;
+    }
+    .bio__title {
+        width: 500px;
+    }
+    .bio__content {
+        padding-left: 20px;
+    }
+    .bio__group-title {
+        margin-bottom: 60px;
+    }
+
+    .bio__title {
+        margin: bottom 20px;
+        font-size: 50px;
+    }
+
+    .bio__subtitle {
+        font-size: 20px;
+    }
+
+    .bio__discription {
+        font-size: 18px;
+    }
+    .full__main{
+        padding-right: 110px;
+    }
+
+}
+
+@media (min-width: 1800px) {
+    .full__main{
+        padding-right: 250px;
+    }
+    .bio__content {
+        padding-left: 30px;
+    }
+    .bio__title {
+        width: 500px;
+    }
+}
